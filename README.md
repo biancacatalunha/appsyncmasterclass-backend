@@ -14,6 +14,39 @@ npm run sls -- create -t aws-nodejs
 allows to have a custom appsync session in serverless.appsync-api.yml
 npm i --save-dev serverless-appsync-plugin
 
+deploy the app to aws
+npm run sls -- deploy
+
+allows to specify iam roles per function
+npm i --save-dev serverless-iam-roles-per-function
+
+generates CloudFormation templates
+npm run sls -- package
+
+for DynamoDB
+npm i --save-dev aws-sdk
+
+random generator
+npm i --save-dev chance
+
+Javascript test framework from Facebook
+npm i --save-dev jest
+
+type definitions for Jest
+npm i --save-dev @types/jest
+
+lets you run the command to export environment variables
+npm i --save-dev serverless-export-env
+
+export env variables to .env
+npm run sls -- export-env
+
+used to load .env file
+npm i --save-dev dotenv
+
+npm run integration-test
+
+
 
 # Notes 
 AppSync is a fully managed GraphQl service, responsible for mapping requests to different resolvers.
