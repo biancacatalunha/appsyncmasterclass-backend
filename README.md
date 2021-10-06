@@ -46,6 +46,11 @@ npm i --save-dev dotenv
 
 npm run integration-test
 
+npm i --save-dev amplify-appsync-simulator
+
+npm i --save-dev amplify-velocity-template
+
+npm run test
 
 
 # Notes 
