@@ -52,6 +52,10 @@ npm i --save-dev amplify-velocity-template
 
 npm run test
 
+HTTP library for Javascript that lets you use promises
+npm i --save-dev axios
+
+npm i --save-dev lodash
 
 # Notes 
 AppSync is a fully managed GraphQl service, responsible for mapping requests to different resolvers.
